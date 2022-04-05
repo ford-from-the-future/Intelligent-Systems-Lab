@@ -1,2 +1,2 @@
 # Intelligent-Systems-Lab
-Repository compiling all code constructed for the ISL Group at Fayetteville State University
+The vision of the Intelligent Systems Laboratory (ISL) is to solve problems in use-inspired Artificial Intelligence and Cybersecurity. ISL provides an experimental environment for development, modeling and testing using advanced approaches. This Gut contains and organizes all code related to it's various projects and research topics.
