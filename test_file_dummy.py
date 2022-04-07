@@ -1,3 +1,3 @@
 def test():
-  """A dummy docstring."""
-  print("optimus")
+    """A dummy docstring."""
+    print("oi")
