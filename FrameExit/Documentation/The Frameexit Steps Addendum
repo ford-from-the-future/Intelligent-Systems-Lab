@@ -34,6 +34,8 @@ ADDENDUM; I backtracked (cd ..) to the accelerator directory and then navigated 
 change BASEDIR in python-scripts/extractMP4toJPG-ffmpeg.py
 line 14 and line 15
 
+ADDENDUM; In the 'extractMP4toJPG-ffmpeg.py' file, line 23 needs to be replaced with 'print(len(database, version, len(taxonomy)))'. Line 49 needs to be replaced with 'print(idx, vid)'. Line 77 needs to be replaced with 'print(idx, tfile)'. Line 82 needs to be replaced with 'print(idx, cmd)'. Line 103 needs to be replaced with 'print(vinfo)'. Line 115 needs to be replaced with 'print('number of videos downloded are ', len(downloaded))'. 
+
 python python-scripts/extractMP4toJPG-ffmpeg.py
 
 python3.6 inference.py config/activitynet_inference_2d.yml --
