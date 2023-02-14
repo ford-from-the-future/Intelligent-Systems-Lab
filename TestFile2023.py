@@ -1,2 +1,5 @@
-al = str("HO HO")
-print(al)
+PlayerUsername = str("JonDoe")
+
+PlayerPassword = str("1234")
+
+print(PlayerUsername)
