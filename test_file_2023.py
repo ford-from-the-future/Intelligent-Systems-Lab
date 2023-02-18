@@ -1,5 +1,9 @@
 #! /usr/bin/env python3
 
+pip install yapf
+yapf your_script.py    # dry-run, only print
+yapf -i your_script.py # replace content
+
 from queue import Empty
 from re import X
 from shutil import move
@@ -28,7 +32,6 @@ def callback(msg):
 
 
 def listenerObjX():
-
     rospy.init_node("listenerObjx", anonymous=True)
     subObjlist = rospy.Subscriber(
         "/zed2i/zed_node/obj_det/objects", ObjectsStamped, callback
