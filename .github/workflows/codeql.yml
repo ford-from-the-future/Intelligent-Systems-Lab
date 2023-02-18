@@ -57,7 +57,7 @@ jobs:
     - name: CPP Evaluation
         # You may pin to the exact commit or the version.
         # uses: luke142367/cpp-evaluation-action@db42971265834124c705a5e737ad09cffe335071
-        uses: luke142367/cpp-evaluation-action@0.0.1
+      uses: luke142367/cpp-evaluation-action@0.0.1
 
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
