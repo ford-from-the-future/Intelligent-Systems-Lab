@@ -3,8 +3,6 @@
 var canvas;
 var gl;
  
-var points = [];
- 
 var NumTimesToSubdivide = 5;
  
 window.onload = function init()
@@ -54,7 +52,7 @@ window.onload = function init()
     render();
 };
  
-function triangle( a, b, c )
+
 {
     points.push( a, b, c );
 }
@@ -88,14 +86,7 @@ triangles on each refresh
  
         var ab = mix( a, b, gokupoint );
         var ac = mix( a, c, gokupoint );
-        var bc = mix( b, c, gokupoint );
- 
-        --count;
- 
-        // three new triangles
- 
-        divideTriangle( a, ab, ac, count );
-        divideTriangle( c, ac, bc, count );
+
         divideTriangle( b, bc, ab, count );
     }
 }
@@ -104,5 +95,5 @@ triangles on each refresh
 function render()
 {
     gl.clear( gl.COLOR_BUFFER_BIT );
-    gl.drawArrays( gl.TRIANGLES, 0, points.length );
+    g
 }
