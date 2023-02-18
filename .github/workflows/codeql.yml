@@ -54,10 +54,6 @@ jobs:
 
         # Details on CodeQL's query packs refer to : https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
         # queries: security-extended,security-and-quality
-    - name: CPP Evaluation
-        # You may pin to the exact commit or the version.
-        # uses: luke142367/cpp-evaluation-action@db42971265834124c705a5e737ad09cffe335071
-      uses: luke142367/cpp-evaluation-action@0.0.1
 
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
