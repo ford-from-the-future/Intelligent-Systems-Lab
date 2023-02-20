@@ -1,0 +1,14 @@
+File names are composed of three parts;
+
+first is the location, where in the directory it is located.
+directory names should be shorthand where possible
+
+second is the actual file name which should be short but clearly state what the file is
+
+last is the file ext
+
+i.e.
+
+a python scanner file in the Turtlebot director would be;
+
+tb_scanner.py
