@@ -51,8 +51,13 @@ jobs:
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
-        languages: ${{ matrix.language }} #this line only scans the repo for languages from line 35
-        queries: security-and-quality
+        languages: ${{ matrix.language }} # CodeQL will only search the repo for the lang. specified in the Lang. Matrix, and ignore all the rest
+        queries: security-and-quality # 
+
+    - if: matrix.language == 'csharp'
+      name: Build C# code
+      id: build_cpp_code
+      uses: github.codeql1-action/autobuild@v1
         
     #- if: matrix.language == 'cpp'
       #name: Build CPP Code
