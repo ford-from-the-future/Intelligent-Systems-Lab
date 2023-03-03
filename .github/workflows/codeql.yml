@@ -57,7 +57,7 @@ jobs:
     - if: matrix.language == 'csharp'
       name: Build C# code
       id: build_cpp_code
-      uses: github.codeql1-action/autobuild@v1
+      uses: github.codeql-action/autobuild@v1
         
     #- if: matrix.language == 'cpp'
       #name: Build CPP Code
